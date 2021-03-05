@@ -1,0 +1,12 @@
+//tsc index.ts -> 컴파일할때 부가적 옵션 정의가능
+
+{
+  "compilerOptions": {
+    //이 프로젝트에 자바스크립트 허용하겠다
+    "allowJs": true,
+    //@ts-check와같은 역할을 한다
+    "checkJs": true,
+    //최소한 기본 타입을 넣어야하는 속성
+    "noImplicitAny": true
+  }
+}
