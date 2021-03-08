@@ -1,4 +1,5 @@
 type Heroes = 'Hulk' | 'Capt' | 'Thor'
+//{ [in Heroes]: } 기본 형태
 type HeroAges = { [K in Heroes]: number }
 const ages: HeroAges = {
   Hulk: 33,

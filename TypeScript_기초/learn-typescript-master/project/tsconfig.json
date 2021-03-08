@@ -1,0 +1,5 @@
+{
+  "compilerOptions": {
+    "checkJs": true //js파일 위에서 ts-check와 같은 옵션
+  }
+}

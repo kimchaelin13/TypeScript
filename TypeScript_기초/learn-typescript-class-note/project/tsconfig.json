@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "checkJs": true, //js파일 위에서 ts-check와 같은 옵션, 이 프로젝트안에 있는 js도 ts가 검증
+    "allowJs": true,
+    "target": "ES5", //ts파일을 js로 변환해주는게 tsc, 
+    "outDir": "./dist", 
+    "moduleResolution": "Node",
+    "lib": ["ES2015", "DOM", "DOM.Iterable"], //ES2015:async같은 최신문법쓰기위해 추가
+    "noImplicitAny": true, //
+    "esModuleInterop": true,
+    "typeRoots": ["./node_modules/@types", "./types"]
+  },
+  "include": ["./src/**/*"] //어떤 폴더를 대상으로 컴파일시킬지, src아래만 컴파일하겠다
+}
