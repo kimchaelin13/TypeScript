@@ -23,7 +23,7 @@ function getUnixTimestamp(date: Date | string) {
 // DOM
 // let a: Element | HTMLElement | HTMLParagraphElement;
 const confirmedTotal = $('.confirmed-total') as HTMLSpanElement;
-const deathsTotal = $('.deaths') as HTMLParagraphElement; //AS:TYPE ASSERTION 
+const deathsTotal = $('.deaths') as HTMLParagraphElement; //AS:TYPE ASSERTION
 const recoveredTotal = $('.recovered') as HTMLParagraphElement;
 const lastUpdatedTime = $('.last-updated-time') as HTMLParagraphElement;
 const rankList = $('.rank-list');
