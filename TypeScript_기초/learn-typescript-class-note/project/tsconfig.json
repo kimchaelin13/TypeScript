@@ -8,7 +8,8 @@
     "lib": ["ES2015", "DOM", "DOM.Iterable"], //ES2015:async같은 최신문법쓰기위해 추가
     "noImplicitAny": true, //
     "esModuleInterop": true,
-    "typeRoots": ["./node_modules/@types", "./types"] //라이브러리 인식 경로 -> ./node_modules/@types아래 파일 갖고온다, types는 만든 폴더
+    "typeRoots": ["./node_modules/@types", "./types"], //라이브러리 인식 경로 -> ./node_modules/@types아래 파일 갖고온다, types는 만든 폴더
+    "strict": true // 엄격한 type으로 정의하기위해
   },
   "include": ["./src/**/*"] //어떤 폴더를 대상으로 컴파일시킬지, src아래만 컴파일하겠다
 }
